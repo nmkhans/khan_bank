@@ -11,7 +11,60 @@
         <!-- Style Sheet -->
         <link rel="stylesheet" href="style.css" />
     </head>
-<body>
-    <h1>This is bank</h1>
-</body>
+
+    <body>
+        <section class="main_area">
+            <div class="inner_main_area container">
+                <div class="bank_title">
+                    <h2>Account <span>Status</span></h2>
+                </div>
+                <div class="bank_body">
+                    <div class="account_status">
+                        <div class="status">
+                            <div class="deposit_info">
+                                <h3>Deposit</h3>
+                                <p>$00</p>
+                            </div>
+                        </div>
+                        <div class="status">
+                            <div class="withdraw_info">
+                                <h3>Withdraw</h3>
+                                <p>$00</p>
+                            </div>
+                        </div>
+                        <div class="status">
+                            <div class="balance_info">
+                                <h3>Balance</h3>
+                                <p>$00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bank_action">
+                        <div class="bank_intract">
+                            <h2>Deposit Your Money</h2>
+                            <form>
+                                <div class="bank_input">
+                                    <input type="text" id="deposite" placeholder="Your Amount">
+                                </div>
+                                <div class="bank_btn">
+                                    <button id="depositeBtn" type="button">Deposit</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="bank_intract">
+                            <h2>Withdraw Your Money</h2>
+                            <form>
+                                <div class="bank_input">
+                                    <input type="text" id="withdraw" placeholder="Your Amount">
+                                </div>
+                                <div class="bank_btn">
+                                    <button id="withdrawBtn" type="button">Withdraw</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>    
+    </body>
 </html>

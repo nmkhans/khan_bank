@@ -1,4 +1,4 @@
-/* Form Handling */
+/* Login Form Handling */
 let submitBtn = document.getElementById('submitButton');
 let userEmail = document.getElementById('userEmail');
 let userPassWord = document.getElementById('userPassword');
@@ -35,11 +35,11 @@ function userInfo() {
     let passWord = userPassWord.value;
     if (email == 'nurmoin05@gmail.com' && passWord == '100504248668420123.') {
         window.location.href = 'bank.html';
-    } else if(email == '' && passWord == '') {
+    } else if(email == '' || passWord == '') {
         document.getElementById('user_warning').style.display = 'none';
     } else {
         document.getElementById('user_warning').style.display = 'inline-block';
     }
-    document.getElementById('userEmail').value = '';
-    document.getElementById('userPassword').value = '';
 }
+
+/* Bank Calculation */

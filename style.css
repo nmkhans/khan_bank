@@ -17,7 +17,7 @@ body {
 
 .bank_title {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .bank_title h2 {
@@ -84,4 +84,111 @@ body {
 
 #user_warning {
     margin-left: 10px;
+}
+
+/* Bank Styleing */
+
+.bank_body {
+    margin-top: 30px;
+}
+
+.account_status {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+}
+
+.deposit_info {
+    background: #06D6A0;
+    padding: 60px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.deposit_info h3 {
+    font-size: 26px;
+}
+
+.deposit_info p {
+    font-size: 40px;
+}
+
+.withdraw_info {
+    background: #d62828;
+    padding: 60px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.withdraw_info h3 {
+    font-size: 26px;
+}
+
+.withdraw_info p {
+    font-size: 40px;
+}
+
+.balance_info {
+    background: #3a86ff;
+    padding: 60px 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.balance_info h3 {
+    font-size: 26px;
+}
+
+.balance_info p {
+    font-size: 40px;
+}
+
+.bank_action {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    margin: 30px 0;
+}
+
+.bank_intract:nth-child(1) {
+    background: #cfbaf0;
+}
+
+.bank_intract:nth-child(2) {
+    background: #f1c0e8;
+}
+
+.bank_intract {
+    padding: 60px 50px;
+    border-radius: 10px;
+}
+
+.bank_intract h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.bank_input input {
+    border: 1px solid #5f51fb;
+    outline: none;
+    color: #0000ff;
+    height: 35px;
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.bank_btn button {
+    background: #5f51fb;
+    color: #fff;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
 }
