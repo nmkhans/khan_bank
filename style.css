@@ -81,3 +81,7 @@ body {
     padding: 5px 20px;
     margin: 10px 0;
 }
+
+#user_warning {
+    margin-left: 10px;
+}
