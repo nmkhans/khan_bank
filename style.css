@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background: rgba(0, 0, 0, 0.342); */
+    background: #f7fdfc;
+}
+
+.container {
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.bank_title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.bank_title h2 {
+    font-size: 36px;
+}
+
+.bank_title h2 span {
+    color: #5f51fb;
+}
+
+.bank_login {
+    width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #5f51fb;
+    border-radius: 15px;
+    padding: 20px 40px;
+    margin-top: 60px;
+
+
+}
+
+.login_title h3 span{
+    color: #5f51fb;
+    font-size: 25px;
+    padding-left: 3px;
+}
+
+.input_field {
+    margin: 15px 0;
+}
+
+.input_field input {
+    display: block;
+    width: 100%;
+    height: 35px;
+    border: 1px solid #d8bfff;
+    color: #0000ff;
+    font-size: 15px;
+    outline: none;
+    padding: 20px 15px;
+    border-radius: 5px;
+}
+
+#submitButton {
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: #5f51fb;
+    color: #fff;
+    height: 35px;
+    width: 100px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.warning {
+    display: none;
+    box-shadow: rgba(255, 0, 0, 0.2) 0px 7px 29px 0px;
+    color: red;
+    padding: 5px 20px;
+    margin: 10px 0;
+}

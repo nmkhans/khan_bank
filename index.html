@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Khan's Bank</title>
+        <!-- Google Font CDN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <!-- Style Sheet -->
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <section class="main_area">
+            <div class="inner_main_area container">
+                <div class="bank_title">
+                    <h2>Khan<span>'s</span> Bank</h2>
+                </div>
+                <div class="bank_login">
+                    <form action="#">
+                        <div class="login_title">
+                            <h3>Please Login<span>.</span></h3>
+                        </div>
+                        <div class="input_field">
+                            <input type="email" name="email" id="userEmail" placeholder="Enter your E-mail">
+                            <div class="warning" id="email_warning">
+                                <p>Please Enter Your Email!</p>
+                            </div>
+                        </div>
+                        <div class="input_field">
+                            <input type="password" name="password" id="userPassword" placeholder="Enter your password">
+                            <div class="warning" id="password_warning">
+                                <p>Please Enter Your Password</p>
+                            </div>
+                        </div>
+                        <button type="button" id="submitButton">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <script src="app.js"></script>
+    </body>
+</html>
