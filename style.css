@@ -76,6 +76,7 @@ body {
 
 .warning {
     display: none;
+    background: #fff;
     box-shadow: rgba(255, 0, 0, 0.2) 0px 7px 29px 0px;
     color: red;
     padding: 5px 20px;

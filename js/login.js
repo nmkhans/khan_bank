@@ -33,7 +33,7 @@ userPassWord.addEventListener('keyup', function() {
 function userInfo() {
     let email = userEmail.value;
     let passWord = userPassWord.value;
-    if (email == 'nurmoin05@gmail.com' && passWord == '100504248668420123.') {
+    if (email == 'nurmoin05@gmail.com' && passWord == '123') {
         window.location.href = 'bank.html';
     } else if(email == '' || passWord == '') {
         document.getElementById('user_warning').style.display = 'none';
@@ -41,5 +41,3 @@ function userInfo() {
         document.getElementById('user_warning').style.display = 'inline-block';
     }
 }
-
-/* Bank Calculation */

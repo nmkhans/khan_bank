@@ -23,19 +23,19 @@
                         <div class="status">
                             <div class="deposit_info">
                                 <h3>Deposit</h3>
-                                <p>$00</p>
+                                <p>$<span id="depositDisplay">00</span></p>
                             </div>
                         </div>
                         <div class="status">
                             <div class="withdraw_info">
                                 <h3>Withdraw</h3>
-                                <p>$00</p>
+                                <p>$<span id="withdrawDisplay">00</span></p>
                             </div>
                         </div>
                         <div class="status">
                             <div class="balance_info">
                                 <h3>Balance</h3>
-                                <p>$00</p>
+                                <p>$<span id="balanceDisplay">00</span></p>
                             </div>
                         </div>
                     </div>
@@ -44,10 +44,13 @@
                             <h2>Deposit Your Money</h2>
                             <form>
                                 <div class="bank_input">
-                                    <input type="text" id="deposite" placeholder="Your Amount">
+                                    <input type="text" id="deposit" placeholder="Enter Amount">
+                                    <div class="warning" id="deposit_warning">
+                                        <p>Please Enter a valid Number</p>
+                                    </div>
                                 </div>
                                 <div class="bank_btn">
-                                    <button id="depositeBtn" type="button">Deposit</button>
+                                    <button id="depositBtn" type="button">Deposit</button>
                                 </div>
                             </form>
                         </div>
@@ -55,7 +58,10 @@
                             <h2>Withdraw Your Money</h2>
                             <form>
                                 <div class="bank_input">
-                                    <input type="text" id="withdraw" placeholder="Your Amount">
+                                    <input type="text" id="withdraw" placeholder="Enter Amount">
+                                    <div class="warning" id="withdraw_warning">
+                                        <p>Please Enter a valid Number</p>
+                                    </div>
                                 </div>
                                 <div class="bank_btn">
                                     <button id="withdrawBtn" type="button">Withdraw</button>
@@ -65,6 +71,8 @@
                     </div>
                 </div>
             </div>
-        </section>    
+        </section>
+        
+    <script src="js/bank.js"></script>
     </body>
 </html>
